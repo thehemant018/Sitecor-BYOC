@@ -2,11 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { UserCard } from './byoc/UserCard'
-import './byoc/TeamMemberCard';
-import './byoc/ProductCard';
-import './byoc/UserCard';
 
+// import './byoc/TeamMemberCard';
+// import './byoc/ProductCard';
+// import './byoc/UserCard';
+
+import { UserCard } from './byoc/UserCard';
+import { TeamMemberCard } from './byoc/TeamMemberCard';
+import { ProductCard } from './byoc/ProductCard'; 
 
 function App() {
   const [count, setCount] = useState(0)
