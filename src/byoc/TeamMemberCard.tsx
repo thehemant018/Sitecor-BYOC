@@ -40,4 +40,7 @@ FEAAS.registerComponent(TeamMemberCard, {
   }
 });
 
+
+console.log("Team Registered");
+
 export { TeamMemberCard };

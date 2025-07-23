@@ -33,4 +33,7 @@ FEAAS.registerComponent(ProductCard, {
   }
 });
 
+
+console.log("Product Registered");
+
 export { ProductCard };

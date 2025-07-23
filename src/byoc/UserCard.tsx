@@ -42,4 +42,6 @@ FEAAS.registerComponent(UserCard, {
   }
 });
 
+console.log("Usercard Registered");
+
 export { UserCard };
